@@ -1,0 +1,75 @@
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+span {
+  color: red;
+  font-size: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.Toastify__close-button {
+  position: absolute !important;
+  background: transparent !important;
+  border: none !important;
+  color: #555 !important;
+  position: absolute !important;
+  right: 8px !important;
+  top: 8px !important;
+  cursor: pointer;
+  opacity: 0.8;
+  outline: none !important;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1;
+  color: #000 !important;
+}
+
+.Toastify__toast {
+  position: relative;
+  padding-right: 35px !important; 
+  font-size: 14px;
+}
